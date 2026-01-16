@@ -4,7 +4,7 @@
     conda create -n reid python=3.8 # advice linux system
     pip install torch torchvision torchaudio pytorch-ignite==0.2.1 --extra-index-url https://download.pytorch.org/whl/cu118
     pip install yacs
-# clone code：
+# Clone code：
     git clone https://github.com/Syk0802/Person-reidentification.git
 
 # Prepare data, unzip, rename !!!
@@ -14,7 +14,7 @@
 ```cd ..```
 
 
-# download init weight
+# Download init weight
 download model init weight file [Google Drive Link](https://drive.google.com/drive/folders/1lcctJBmWwj0wIN5C-gYscYHyTMndjINr?usp=drive_link)
 
 # Train:
