@@ -2,6 +2,7 @@
  Linux (any distribution), a dedicated GPU with at least 24GB VRAM, and CUDA version 11.8.
 # Basic Environment Setup: Follow the steps below to reproduce our results.  
     conda create -n reid python=3.8 # advice linux system
+    conda activate reid
     pip install torch torchvision torchaudio pytorch-ignite==0.2.1 --extra-index-url https://download.pytorch.org/whl/cu118
     pip install yacs
 # Clone code：

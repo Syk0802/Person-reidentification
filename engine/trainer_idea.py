@@ -5,6 +5,21 @@ import logging
 
 import torch
 import torch.nn as nn
+
+try:
+    import torch._six
+except ImportError:
+    from torch import hub
+    import sys
+    # 创建一个伪模块
+    from types import ModuleType
+    _six = ModuleType("_six")
+    _six.string_classes = (str,)
+    _six.int_classes = (int,)
+    # 注入到 torch 模块和 sys.modules 中
+    torch._six = _six
+    sys.modules["torch._six"] = _six
+
 from ignite.engine import Engine, Events
 from ignite.handlers import ModelCheckpoint, Timer
 from ignite.metrics import RunningAverage
