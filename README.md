@@ -4,7 +4,7 @@
     pip install torch torchvision torchaudio pytorch-ignite==0.2.1 --extra-index-url https://download.pytorch.org/whl/cu118
     pip install yacs
 # clone our code：
-    git clone 
+    git clone https://github.com/Syk0802/Person-reidentification.git
 # download data and address it!!!, e.g. Market
     cd dataset
     download market1501 dataset from google dirve [[link]](https://drive.google.com/file/d/1SMx9IBJORLyNZJbWG_f95Id3nYrU_XR_/view?usp=drive_link)
