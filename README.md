@@ -7,12 +7,12 @@
     git clone https://github.com/Syk0802/Person-reidentification.git
 # download data and address it!!!, e.g. Market
     cd dataset
-    download market1501 dataset from google dirve [[link]](https://drive.google.com/file/d/1SMx9IBJORLyNZJbWG_f95Id3nYrU_XR_/view?usp=drive_link)
+    download market1501 dataset from google dirve [link](https://drive.google.com/file/d/1SMx9IBJORLyNZJbWG_f95Id3nYrU_XR_/view?usp=drive_link)
     unzip Market-1501-v15.09.15.zip
     mv * Market
     cd ..
 # download init weight
-    download model init weight file [[link]](https://drive.google.com/drive/folders/1lcctJBmWwj0wIN5C-gYscYHyTMndjINr?usp=drive_link)
+    download model init weight file [link](https://drive.google.com/drive/folders/1lcctJBmWwj0wIN5C-gYscYHyTMndjINr?usp=drive_link)
 
 # Train:
 ## Train baseline method:
