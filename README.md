@@ -9,7 +9,7 @@
     git clone https://github.com/Syk0802/Person-reidentification.git
 
 # Prepare data, unzip !!!
-```cd dataset``` and download market1501 dataset from [Google Drive Link](https://drive.google.com/file/d/1SMx9IBJORLyNZJbWG_f95Id3nYrU_XR_/view?usp=drive_link)
+```mkdir dataset && cd dataset``` and download market1501 dataset from [Google Drive Link](https://drive.google.com/file/d/1SMx9IBJORLyNZJbWG_f95Id3nYrU_XR_/view?usp=drive_link)
 ```unzip Market-1501-v15.09.15.zip```
 ```cd ..```
 
